@@ -1,0 +1,4 @@
+<p>Enter your name</p>
+<input #name type="text">
+<button (click)="onclick(name.value)">print on child</button>
+<app-component2 [message]= name.value></app-component2>
